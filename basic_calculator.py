@@ -26,5 +26,5 @@ not_ended = True
 while not_ended:
 	print("-------------------------------------------------------")
 	calculator.calculator_start()
-	end = input("Quit : Y/N")
+	end = input("Quit : Y/N: ")
 	not_ended = end.lower() == 'n'
